@@ -214,7 +214,8 @@ a:hover { color: #FF0; }
 .service-content {
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 15vh;
+  padding-top: 8vh;
+    padding-bottom: 8vh;
   background-image: url(../img/1st-section.jpg);
   background-attachment: fixed;
   min-height: 100vh;
@@ -222,45 +223,53 @@ a:hover { color: #FF0; }
   background-position: center center;
 }
 
-.service-content .left-text h4 {
-  font-size: 24px;
+.service-content .center-text h4 {
+  font-size: 30px;
   font-weight: 500;
   color: #fff;
+  text-align: justify;
 }
 
+.service-content em {
+  color: #fff;
+  font-weight: 800;
+  font-style: normal;
+}
 h4, .h4 {
   font-size: 18px;
 }
 
-.service-content .left-text .line-dec {
-  width: 45px;
+.service-content .center-text .line-dec {
+  width: 180px;
   height: 3px;
   background-color: #595959;
   margin: 20px 0px 20px 0px;
 }
 
-.service-content .left-text p {
+.service-content .center-text p {
   color: #fff;
 }
 
-.service-content .left-text ul {
+.service-content .center-text ul {
   padding: 0;
   margin-top: 30px;
+    margin-bottom: 40px;
   list-style: none;
 }
 
-.service-content .left-text ul li {
+.service-content .center-text ul li {
   margin: 15px 0px;
   font-weight: 600;
   color: #fff;
 }
 
-.service-content .left-text .primary-button {
+.service-content .center-text .primary-button {
   margin: 30px 0px;
 }
 
 .service-content .service-item {
   background-color: rgba(0, 0, 0, 0.5);
+   /* background-image: url(../img/5th-item.jpg);*/
   padding: 25px 30px;
   text-align: center;
   color: #fff;
@@ -686,18 +695,20 @@ footer em {
 
   .service-content {
     padding-top: 5vh;
+      
     text-align: center;
   }
 
-  .service-content .left-text .line-dec {
+  .service-content .center-text .line-dec {
     width: 45px;
     height: 3px;
+    padding-bottom: 30px;
     background-color: #595959;
     margin: 20px auto 20px auto;
   }
 
-  .service-content .left-text ul {
-    text-align: left;
+  .service-content .center-text ul {
+    text-align: center;
   }
 
   .service-content .service-item {

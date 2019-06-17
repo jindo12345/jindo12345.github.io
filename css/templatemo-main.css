@@ -505,10 +505,10 @@ h3, .h3 {
 .tabs-content {
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 10vh;
+  padding-top: 12vh;
   background-image: url(../img/3rd-section.jpg);
   background-attachment: fixed;
-  min-height: 100vh; /* This resizes the TABS section window */
+  min-height: 110vh; /* This resizes the TABS section window */
   background-size: cover;
   background-position: center center;
 }
@@ -526,6 +526,7 @@ section {
   list-style: none;
   margin: 0px;
   padding: 0px;
+    padding-bottom: 10vh;
 }
 
 .tabs li {
@@ -544,6 +545,7 @@ section {
   font-weight: 700;
   padding:10px 15px;
   border:4px solid #fff;
+    
 }
 
 .tabs a:hover {

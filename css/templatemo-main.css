@@ -451,8 +451,18 @@ h3, .h3 {
 
 
 .projects-content {
-  padding-top: 20vh;
+  padding-top: 10vh;
   background-image: url(../img/2nd-section.jpg);
+}
+
+.projects-content h1 {
+  margin-top: 0px;
+  font-size: 128px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+    padding-bottom: 4vh;
 }
 
 .projects-content .item img {

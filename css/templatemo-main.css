@@ -146,7 +146,8 @@ a:hover { color: #FF0; }
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(../img/0th-section.jpg);
+  /*background-image: url(../img/0th-section.jpg);*/
+    background-color: #c96563;
 }
 
 .baner-content h1 {
@@ -176,47 +177,13 @@ a:hover { color: #FF0; }
   margin-top: 15px;
 }
 
-
-.base-content {
-  padding-top: 30vh;
-  text-align: center;
-  background-image: url(../img/5th-section.jpg);
-}
-
-.base-content h1 {
-  margin-top: 0px;
-  font-size: 128px;
-  color: #fff;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-bottom: 0px;
-}
-
-.base-content em {
-  color: #525252;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.base-content span {
-  display: inline-block;
-  margin-top: -20px;
-  font-weight: 300;
-  font-size: 48px;
-  color: #fff;
-}
-
-.base-content .primary-button {
-  margin-top: 15px;
-}
-
-
 .service-content {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
     padding-bottom: 8vh;
-  background-image: url(../img/1st-section.jpg);
+  /*background-image: url(../img/1st-section.jpg);*/
+    background-color: #e9aa5d;
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -285,6 +252,80 @@ h4, .h4 {
 
 
 
+.feedback-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8vh;
+    padding-bottom: 8vh;
+  /*background-image: url(../img/4th-section.jpg);*/
+    background-color: #9fc5e9;
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.feedback-content .center-text h4 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  text-align: justify;
+}
+
+.feedback-content em {
+  color: #fff;
+  font-weight: 800;
+  font-style: normal;
+}
+h4, .h4 {
+  font-size: 18px;
+}
+
+.feedback-content .center-text .line-dec {
+  width: 180px;
+  height: 3px;
+  background-color: #525252;
+  margin: 20px 0px 20px 0px;
+}
+
+.feedback-content .center-text p {
+  color: #fff;
+}
+
+.feedback-content .center-text ul {
+  padding: 0;
+  margin-top: 30px;
+    margin-bottom: 40px;
+  list-style: none;
+}
+
+.feedback-content .center-text ul li {
+  margin: 15px 0px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.feedback-content .center-text .primary-button {
+  margin: 30px 0px;
+}
+
+.feedback-content .feedback-item {
+  background-color: rgba(0, 0, 0, 0.65);
+   /* background-image: url(../img/5th-item.jpg);*/
+  padding: 25px 30px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.feedback-content .feedback-item .line-dec {
+  width: 70px;
+  height: 3px;
+  background-color: #9fc5e9;
+  margin: 20px auto 15px auto;
+}
+
+
 
 
 
@@ -292,7 +333,8 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../img/5th-section.jpg);
+  /*background-image: url(../img/0th-section.jpg);*/
+    background-color: #c96563;
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -347,20 +389,9 @@ h4, .h4 {
 .source-content .source-item .line-dec {
   width: 70px;
   height: 3px;
-  background-color: #b4a7d5;
+  background-color: #c96563;
   margin: 20px auto 15px auto;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -368,7 +399,8 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../img/4th-section.jpg);
+  /*background-image: url(../img/5th-section.jpg);*/
+    background-color: #b4a7d5;
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -443,7 +475,7 @@ h3, .h3 {
 .closing-content .closing-item .line-dec {
   width: 70px;
   height: 3px;
-  background-color: #9fc5e9;
+  background-color: #b4a7d5;
   margin: 20px auto 15px auto;
 }
 
@@ -452,7 +484,8 @@ h3, .h3 {
 
 .projects-content {
   padding-top: 10vh;
-  background-image: url(../img/2nd-section.jpg);
+  /*background-image: url(../img/2nd-section.jpg);*/
+    background-color: #b6d7a8;
 }
 
 .projects-content h1 {
@@ -492,6 +525,14 @@ h3, .h3 {
   color: #525252;
 }
 
+.projects-content .item .text-content .text-source{
+  padding-top: 10px;
+    font-style: normal;
+  font-size: 9px;
+  font-weight: 700;
+  color: #525252;
+}
+
 .owl-pagination {
   margin-top: 40px;
   opacity: 1;
@@ -516,7 +557,8 @@ h3, .h3 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 12vh;
-  background-image: url(../img/3rd-section.jpg);
+  /*background-image: url(../img/3rd-section.jpg);*/
+    background-color: #ffe085;
   background-attachment: fixed;
   min-height: 110vh; /* This resizes the TABS section window */
   background-size: cover;

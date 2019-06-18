@@ -465,6 +465,14 @@ h3, .h3 {
   margin-bottom: 30px;
 }
 
+.closing-content .row {
+    display: flex;
+  width: 100%;
+}
+.closing-content .col {
+  flex: 1;
+  padding: 16px;
+}
 .closing-content .closing-item .closing-list{
 
   text-align: left;
@@ -482,8 +490,12 @@ h3, .h3 {
   background-color: #b4a7d5;
   margin: 20px auto 15px auto;
 }
-
-
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
 
 
 .projects-content {

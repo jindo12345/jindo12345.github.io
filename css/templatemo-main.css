@@ -198,7 +198,7 @@ a:hover { color: #FF0; }
 }
 
 .service-content em {
-  color: #fff;
+  color: #525252;
   font-weight: 800;
   font-style: normal;
 }
@@ -273,7 +273,7 @@ h4, .h4 {
 }
 
 .feedback-content em {
-  color: #fff;
+  color: #525252;
   font-weight: 800;
   font-style: normal;
 }
@@ -415,7 +415,7 @@ h4, .h4 {
       font-style: italic;
 }
 
-.closing-content em {
+.closing-content h4 em {
   color: #525252;
   font-weight: 800;
     font-style: italic;}
@@ -468,8 +468,12 @@ h3, .h3 {
 .closing-content .closing-item .closing-list{
 
   text-align: left;
-    font-size: 15px;
+  font-size: 15px;
+}
 
+.closing-content .closing-item .closing-list em{
+    font-weight: 700;
+    font-style: normal;
 }
 
 .closing-content .closing-item .line-dec {
@@ -490,7 +494,7 @@ h3, .h3 {
 
 .projects-content h1 {
   margin-top: 0px;
-  font-size: 128px;
+  font-size: 96px;
   color: #fff;
   font-weight: 900;
   text-transform: uppercase;
@@ -563,6 +567,15 @@ h3, .h3 {
   min-height: 110vh; /* This resizes the TABS section window */
   background-size: cover;
   background-position: center center;
+}
+.tabs-content h1 {
+  margin-top: 0px;
+  font-size: 96px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+    padding-bottom: 4vh;
 }
 
 section {

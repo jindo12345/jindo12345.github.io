@@ -485,7 +485,7 @@ h3, .h3 {
 .projects-content {
   padding-top: 10vh;
   /*background-image: url(../img/2nd-section.jpg);*/
-    background-color: #b6d7a8;
+    background-color: #ffe085;
 }
 
 .projects-content h1 {
@@ -558,7 +558,7 @@ h3, .h3 {
   padding-right: 15px;
   padding-top: 12vh;
   /*background-image: url(../img/3rd-section.jpg);*/
-    background-color: #ffe085;
+    background-color: #b6d7a8;
   background-attachment: fixed;
   min-height: 110vh; /* This resizes the TABS section window */
   background-size: cover;

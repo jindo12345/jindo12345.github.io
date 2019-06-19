@@ -315,7 +315,14 @@ h4, .h4 {
   background-color: #9fc5e9;
   margin: 20px auto 15px auto;
 }
-
+.feedback-content .feedback-item .text-source{
+  padding-bottom: 20px;
+    font-style: normal;
+  font-size: 12px;
+  font-weight: 700;
+  color: #525252;
+    text-align: center
+}
 
 .source-content {
   padding-left: 15px;
